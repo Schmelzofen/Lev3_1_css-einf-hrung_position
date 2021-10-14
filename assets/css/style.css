@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+/* 
+font-family: Ubuntu;
+font-family: Monoton;
+#070707, #9d9f9f, #f4f7f8 und #AC8059
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(31,33,37);
+    color: #9d9f9f;
+}
+
+header{
+    font-family: Ubuntu;
+}
+
+header span{
+    position: absolute;
+    left: 15px;
+    top: 35px;
+}
+
+header nav ul{
+    text-align: right;
+    padding-top: 35px;
+}
+
+header nav ul li{
+    display: inline;
+    padding: 15px;
+}
+
+header div{
+    border: 1px solid #9d9f9f;
+}
+
+header nav ul li:hover{
+    color:#fff;
+}
+
+header p{
+    left: 65px;
+    top: 35px;
+    position: absolute;
+}
+
+main{
+    position: relative;
+    font-family: Ubuntu;
+}
+
+main h1{
+    font-size: 50px;
+    width: 320px;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 75px;
+}
+
+main p:nth-of-type(1){
+    position: absolute;
+    top: 350px;
+    left: 75px;
+    color: rgb(168,137,115);
+}
+
+main img{
+    width: 320px;
+    border-radius: 5px;
+}
+
+main img:nth-of-type(3){
+    position: absolute;
+    right: -90px;
+    top: 60px;
+}
+
+main img:nth-of-type(2){
+    position: absolute;
+    right: 310px;
+    top: 60px;
+}
+
+main img:first-of-type{
+    position: absolute;
+    left: 400px;
+    top: 60px;
+}
+
+main p:nth-of-type(2){
+    position: absolute;
+    left: 430px;
+    top:500px;
+    background-color: transparent;
+}
+
+main p:nth-of-type(3){
+    position: absolute;
+    left: 840px;
+    top:500px;
+    color: #000;
+    background-color: transparent;
+}
+
+main p:nth-of-type(4){
+    position: absolute;
+    right:120px;
+    top:500px;
+    background-color: transparent;
+}
+
+footer span i{
+    padding: 15px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer span i:nth-of-type(2){
+    left: 50px;
+}
+
+footer span i:nth-of-type(3){
+    left: 100px;
+}
