@@ -24,17 +24,20 @@ header{
 
 header span{
     position: absolute;
-    left: 15px;
-    top: 35px;
+    left: 55px;
+    top: 6px;
+    font-family: Monoton;
+    font-size: 24px;
 }
 
 header nav ul{
     text-align: right;
-    padding-top: 35px;
+    padding: 1px;
+    border-bottom: 1px solid #9d9f9f;
 }
 
 header nav ul li{
-    display: inline;
+    display: inline-block;
     padding: 15px;
 }
 
@@ -47,8 +50,8 @@ header nav ul li:hover{
 }
 
 header p{
-    left: 65px;
-    top: 35px;
+    left: 100px;
+    top: 15px;
     position: absolute;
 }
 
@@ -82,32 +85,32 @@ main img{
 main img:nth-of-type(3){
     position: absolute;
     right: -90px;
-    top: 60px;
+    top: 40px;
 }
 
 main img:nth-of-type(2){
     position: absolute;
     right: 250px;
-    top: 60px;
+    top: 40px;
 }
 
 main img:first-of-type{
     position: absolute;
     right: 600px;
-    top: 60px;
+    top: 40px;
 }
 
 main p:nth-of-type(2){
     position: absolute;
     left: 570px;
-    top:520px;
+    top:500px;
     background-color: transparent;
 }
 
 main p:nth-of-type(3){
     position: absolute;
     left: 920px;
-    top:520px;
+    top:500px;
     color: #000;
     background-color: transparent;
 }
@@ -115,7 +118,7 @@ main p:nth-of-type(3){
 main p:nth-of-type(4){
     position: absolute;
     right:100px;
-    top:520px;
+    top:500px;
     background-color: transparent;
 }
 
@@ -126,10 +129,28 @@ footer span i{
     bottom: 0px;
 }
 
+footer span i:nth-of-type(1){
+    left: 25px;
+    bottom: 0px;
+}
+
 footer span i:nth-of-type(2){
-    left: 50px;
+    left: 75px;
+    bottom: 0px;
 }
 
 footer span i:nth-of-type(3){
-    left: 100px;
+    left: 125px;
+}
+
+footer i:nth-of-type(1){
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+}
+
+footer i:nth-of-type(2){
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
 }
