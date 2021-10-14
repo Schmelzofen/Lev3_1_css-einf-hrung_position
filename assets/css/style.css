@@ -14,6 +14,10 @@ font-family: Monoton;
     color: #9d9f9f;
 }
 
+body{
+    overflow: hidden;
+}
+
 header{
     font-family: Ubuntu;
 }
@@ -58,19 +62,20 @@ main h1{
     width: 320px;
     color: #fff;
     position: absolute;
-    top: 200px;
-    left: 75px;
+    top: 170px;
+    left: 110px;
 }
 
 main p:nth-of-type(1){
     position: absolute;
-    top: 350px;
-    left: 75px;
+    top: 400px;
+    left: 110px;
     color: rgb(168,137,115);
 }
 
 main img{
-    width: 320px;
+    width: 300px;
+    height: 500px;
     border-radius: 5px;
 }
 
@@ -82,35 +87,35 @@ main img:nth-of-type(3){
 
 main img:nth-of-type(2){
     position: absolute;
-    right: 310px;
+    right: 250px;
     top: 60px;
 }
 
 main img:first-of-type{
     position: absolute;
-    left: 400px;
+    right: 600px;
     top: 60px;
 }
 
 main p:nth-of-type(2){
     position: absolute;
-    left: 430px;
-    top:500px;
+    left: 570px;
+    top:520px;
     background-color: transparent;
 }
 
 main p:nth-of-type(3){
     position: absolute;
-    left: 840px;
-    top:500px;
+    left: 920px;
+    top:520px;
     color: #000;
     background-color: transparent;
 }
 
 main p:nth-of-type(4){
     position: absolute;
-    right:120px;
-    top:500px;
+    right:100px;
+    top:520px;
     background-color: transparent;
 }
 
